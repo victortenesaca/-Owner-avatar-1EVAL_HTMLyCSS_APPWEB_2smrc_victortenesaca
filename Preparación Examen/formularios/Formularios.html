@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<p>
+    <h2>Formulario de encuesta</h2><br>
+    Nombre: <input type="text"><br>
+    ¿Cuál te parece el mejor capítulo?: <input type="text"><br>
+    ¿Cuál te parece el mejor capítulo?: <input type="text"><br>
+    <p>¿Qué nota le pondrías al curso?: <select name="Nota"><br>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select></p>
+    <p>Comentarios:</p>
+    <textarea name="Comentarios" rows="5">...Comentarios...</textarea><br>
+    <input type="submit"><br>
+    <h2>Empleados de una Empresa</h2>
+    Nombre:<input type="text">Apellidos:<input type="text"><br>
+    Sueldo Bruto:<input type="text"><br>
+    Fecha de alta:<input type="text"><br>
+    Categoría:<input type="text"><br>
+    Sueldo Neto: <input type="radio">Menos de 1000 euros <input type="radio">Entre 1001 y 2000 euros <input type="radio">Más de 2000 euros<br>
+    <p>Guía de satisfación de la empresa:
+        <select name="Satis">
+            <option value="bajo">bajo</option>
+            <option value="medio">medio</option>
+            <option value="alto">alto</option>
+        </select>
+    <p>Tus comentarios:</p>
+    <textarea name="Tus comens" rows="5"></textarea>
+    </p>
+    <input type="submit"><input type="reset" value="Reset">
+    <hr>
+    <p>Selecciona el sitio que quieres visitar:
+        <select name="sitio" onchange="window.location=this.value;">
+            <option value="https://www.realmadrid.com">Real Madrid</option>
+            <option value="https://www.google.com">Google</option>
+            <option value="http://cronaldo7.es">Ronaldo</option>
+            <option value="FormularioEmpleados.hmtl">Formulario de Empleados</option>
+        </select>
+    </p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+td.borde-especifico {
+  border-left: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+}
+th.borde-izq {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+th.borde-izqui {
+  border-left: 1px solid orangered;
+}
+td.borde-rojo {
+  border-bottom: 1px solid red;
+}
+td.borde-azul {
+  border-bottom: 1px solid aqua;
+}
+td.borde-morado {
+  border-bottom: 1px solid blueviolet;
+  border-right: 1px solid blueviolet;
+}
+th.borde-nar-de {
+  border-right: 1px solid orangered;
+}
+td.borde-verde-de {
+  border-right: 1px solid lightgreen;
+}
+td.borde-azu-de {
+  border-right: 1px solid aqua;
+}
+td.borde-mora-de {
+  border-right: 1px solid blueviolet;
+}
+table{
+  height: 300px;
+}
